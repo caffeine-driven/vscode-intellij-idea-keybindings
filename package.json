@@ -495,22 +495,10 @@
                 "intellij": "Go to symbol"
             },
             {
-                "key": "alt+left",
-                "mac": "ctrl+left",
-                "command": "workbench.action.previousEditor",
-                "intellij": "Go to previous editor tab"
-            },
-            {
                 "key": "shift+ctrl+[",
                 "mac": "shift+cmd+[",
                 "command": "workbench.action.previousEditor",
                 "intellij": "Go to previous editor tab"
-            },
-            {
-                "key": "alt+right",
-                "mac": "ctrl+right",
-                "command": "workbench.action.nextEditor",
-                "intellij": "Go to next editor tab"
             },
             {
                 "key": "shift+ctrl+]",
@@ -729,6 +717,38 @@
                 "command": "cursorBottom",
                 "when": "textInputFocus",
                 "intellij": "Move Caret to Text End"
+            },
+            {
+                "key": "alt+left",
+                "mac": "cmd+left",
+                "command": "cursorLineStart",
+                "when": "textInputFocus",
+                "intellij": "Move Caret to Text Start"
+            },
+            {
+                "key": "alt+right",
+                "mac": "cmd+right",
+                "command": "cursorEnd",
+                "when": "textInputFocus",
+                "intellij": "Move Caret to Text End"
+            },
+            {
+                "key": "shift+alt+left",
+                "mac": "shift+cmd+left",
+                "command": "cursorLineStartSelect",
+                "intellij": "Select texts to line start"
+            },
+            {
+                "key": "shift+alt+right",
+                "mac": "shift+cmd+right",
+                "command": "cursorEndSelect",
+                "intellij": "Select texts to line start"
+            },
+            {
+                "key": "ctrl+shift+\\",
+                "mac": "cmd+shift+\\",
+                "command": "workbench.action.splitEditor",
+                "intellij": "Split editor vertically"
             },
             {
                 "key": "shift+f6",
